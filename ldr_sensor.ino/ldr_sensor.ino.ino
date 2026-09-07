@@ -13,6 +13,8 @@ void loop()
 {
   int analogValue = analogRead(LDR_PIN);
   int brightness = map(analogValue, 0, 1023, 0, 255);
+
+  analogWrite(LED_PIN,brightness);
   ledcWrite(LED_PIN,brightness);
 
   Serial.print("Analog Value: ");
