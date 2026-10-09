@@ -1,0 +1,18 @@
+# To get the Server IP
+
+1. ifconfig
+
+
+Steps:
+1. Create app.py & Client.ino
+2. Connect RPi (Server) & ESP32 (Client)
+3. Connect both to the same wifi network
+4. Type the ssid, password, serverIP of connected Network
+5. Compile & Upload the Client
+6. Run the Server(app.py) to display data collected from DHT22 Sensor
+
+
+
+Note: 
+1. If DHT library is not installed Goto Library and Search "DHT Sensor Library" and install the library "by Adafruit"
+2. If the library is already installed and not working, please uninstall and install by following above steps.	

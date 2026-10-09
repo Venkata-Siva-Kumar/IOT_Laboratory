@@ -1,0 +1,45 @@
+# Create project directory
+1. mkdir rpi_flask_led
+2. cd rpi_flask_led
+
+# Create virtual environment
+1. python3 -m venv flskvenv
+
+# Activate virtual environment
+1. source flskvenv/bin/activate
+
+# Install Flask
+1. pip install flask
+
+# Check Flask installation
+1. pip show flask
+
+# Update package lists
+1. sudo apt update
+
+# Install Raspberry Pi GPIO library
+1. sudo apt install python3-rpi.gpio
+
+# Create templates directory
+1. mkdir templates
+
+make sure the folder structure
+rpi_flask_led/
+	├── app.py
+	└── templates/
+		└── main.html
+
+Important: main.html must be inside the "templates" folder.
+
+
+
+# Start the Flask Server
+
+1. cd rpi_flask_led
+2. python3 app.py or python app.py
+
+Expected output:
+• Serving Flask app ‘app’
+• Running on all addresses (0.0.0.0)
+• Running on http://127.0.0.1:5000
+• Running on http://192.168.1.105:5000
