@@ -9,7 +9,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 // Wi-Fi Configuration
 const char* ssid = "edge 40 neo_7190";
-const char* password = "maryiala";
+const char* password = "********";
 
 // Raspberry Pi Configuration
 const char* serverIP = "10.226.61.75";
