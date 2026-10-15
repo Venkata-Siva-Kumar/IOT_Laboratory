@@ -1,0 +1,21 @@
+1. Write RPi and Aurdino codes
+2. Upload the Aurdino code to ESP32
+3. Type: sudo "raspi-config" in python terminal
+4. Type: i2cdetect –y 1"
+5. Run the RPi program
+
+Pin Configuration:
+~~~~~~~~~~~~~~~~~~
+#ESP32	-	RPi
+---------------
+21		-	GPIO2
+22		-	GPIO3
+GND		-	GND 
+
+
+#Aurdino	-	RPi
+-------------------
+A4			-	GPIO2
+A5			-	GPIO3
+GND			-	GND
+
